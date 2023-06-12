@@ -1,0 +1,179 @@
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+   
+   html{
+     font-family: 'Reem+Kufi+Fun';
+   }
+   
+   #padre {
+    height: auto;
+    background: linear-gradient(rgb(37, 37, 37) 4%,white, #00adc6);
+    border-top:  1px solid rgb(121, 121, 121);
+   }
+
+   #hijouno h1{
+    
+    color:black;
+    padding-left: 0vw;
+    padding-top: 7vw;
+    text-shadow: 1px 1px rgb(130, 130, 130);
+  }
+
+  #hijouno h2{
+    
+    color: black;
+    padding-left: 0.8vw;
+    padding-right: 1vw;
+    padding-top: 4vw;
+    text-shadow: 1px 1px rgb(130, 130, 130);
+  }
+
+   .navbar li a, .navbar .navbar-brand {
+    color: white !important;
+    
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #6fcfcf !important;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  
+  .carousel-item img{
+    border-radius: 8px;
+  }
+
+  .servicios {
+    background-color: lightgray;
+  }
+
+  
+  #ProdDestacado {
+    height: auto;
+    background: linear-gradient(rgb(37,37,37) 40%, white, black)
+    
+  }
+
+  #ProdDestacado h2{
+    text-align: center;
+    color: white;
+    padding-left: 0vw;
+    padding-right: 0vw;
+    padding-top: 5vw;
+    text-shadow: 2px 2px black;
+  }
+  
+  #ProdDestacado h3{
+    text-align: center;
+    color: white;
+    padding-top: 4vw;
+    text-shadow: 2px 2px black;   
+  }
+
+
+  #ProdDestacado #Boton {
+    text-align: center;
+    
+  }
+
+
+  #Servicios {
+    height: auto;
+    background: linear-gradient(#00adc6, white, #00adc6);
+  }
+
+  #Servicios h3{
+    
+    color: black;
+    padding-top: 2vw;
+    
+  }
+
+  #Servicios p{
+   
+    color: black;
+    padding-top: 1vw;
+    
+   
+  }
+
+  #nosotros {
+    height: auto;
+    background: linear-gradient(rgb(37,37,37) 5%, white, black)
+  }
+  
+  #nosotros h3{
+    
+    color: white;
+    padding-top: 2vw;
+    text-shadow: 2px 2px black;
+  }
+
+  #nosotros p{
+   
+    color: white;
+    padding-top: 1vw;
+    text-shadow: 2px 2px black;
+   
+  }
+
+  #blog {
+    height: auto;
+    background: linear-gradient(#00adc6, white, #00adc6);
+  }
+
+  #blog h3{
+    
+    color: black;
+    padding-top: 2vw;
+    text-shadow: 1px 1px white;
+  }
+
+  #blog p{
+    color: black;
+    text-shadow: 0px 0px;
+  }
+
+  #footer {
+    background: linear-gradient(rgb(37,37,37) 40%, rgb(175, 174, 174), black)
+    
+  }
+
+  #footer h3{
+    color: white;
+    text-shadow: 2px 2px rgb(114, 112, 112);
+  }
+
+  #footer p{
+    color: white;
+  }
+
+  #footer .nav-item li a:hover, .nav-item li.active a {
+    color: #6fcfcf !important;
+  }
+
+  #redes a {
+    color: white !important;
+  }
+
+  #redes a:hover, a.active a {
+    color: #6fcfcf !important;
+  }
+
+  .bi {
+    font-size: 1.5em;
+  }
+  
